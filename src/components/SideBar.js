@@ -11,7 +11,7 @@ function SideBar(){
             <Grid>
                 <Box>
                 {arr.map(item => {
-			return (<Typography class='px-5 py-3 hover:bg-amber-600'>
+			return (<Typography class='px-5 py-3 hover:bg-amber-600 cursor-pointer'>
     			{item}
 		    </Typography>);
 		})}  
